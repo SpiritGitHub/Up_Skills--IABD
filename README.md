@@ -11,24 +11,24 @@ Bienvenue dans mon parcours d'apprentissage structuré en IA et Big Data. Ce fic
 ### 🔹 Niveau Préparatoire (Avant Débutant)
 **Objectif :** Acquérir les bases solides en programmation, SQL et manipulation de données.
 
-| Compétence | Temps Estimé | Progression |
-|------------|-------------|-------------|
-| **Structures de données (Listes, Graphes, Arbres, Piles, Files)** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% |
-| **Requêtes SQL avancées (jointures, indexation, normalisation)** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% |
-| **Pipeline de nettoyage de données avec Pandas** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% |
-| **Exploration de données avec Matplotlib et Seaborn** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% |
+| Compétence | Temps Estimé | Progression | Depot |
+|------------|-------------|-------------|-------|
+| **Structures de données (Listes, Graphes, Arbres, Piles, Files)** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% | |
+| **Requêtes SQL avancées (jointures, indexation, normalisation)** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% | |
+| **Pipeline de nettoyage de données avec Pandas** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% | |
+| **Exploration de données avec Matplotlib et Seaborn** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% | |
 
 ---
 
 ### 🔹 Niveau Débutant
 **Objectif :** Appliquer les bases à des problèmes concrets et découvrir le Machine Learning.
 
-| Compétence | Temps Estimé | Progression |
-|------------|-------------|-------------|
-| **Système de recommandation basique (Scikit-learn)** | 4-6 semaines | ![Progress](https://progress-bar.dev/20/) 20% |
-| **Analyse de sentiments sur Twitter (NLTK, TensorFlow)** | 5-7 semaines | ![Progress](https://progress-bar.dev/20/) 20% |
-| **Détection de tendances dans des données de vente** | 4-6 semaines | ![Progress](https://progress-bar.dev/10/) 10% |
-| **Création d’une API Flask pour servir un modèle ML** | 3-5 semaines | ![Progress](https://progress-bar.dev/20/) 20% |
+| Compétence | Temps Estimé | Progression | Depot |
+|------------|-------------|-------------|-------|
+| **Système de recommandation basique (Scikit-learn)** | 4-6 semaines | ![Progress](https://progress-bar.dev/20/) 20% | |
+| **Analyse de sentiments sur Twitter (NLTK, TensorFlow)** | 5-7 semaines | ![Progress](https://progress-bar.dev/20/) 20% | |
+| **Détection de tendances dans des données de vente** | 4-6 semaines | ![Progress](https://progress-bar.dev/10/) 10% | |
+| **Création d’une API Flask pour servir un modèle ML** | 3-5 semaines | ![Progress](https://progress-bar.dev/20/) 20% | |
 
 ---
 
