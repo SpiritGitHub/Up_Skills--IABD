@@ -1,0 +1,276 @@
+1️⃣ Implémentation de structures de données (Listes, Graphes, Arbres, Piles, Files)
+
+✅ Compétences visées :
+
+    Comprendre et implémenter les structures de données en Python.
+
+    Manipuler efficacement des collections d’éléments pour des algorithmes optimisés.
+
+📌 TP 1 : Liste Chaînée en Python
+
+👉 Exercice : Implémente une classe LinkedList avec les opérations suivantes :
+
+    Ajouter un élément en début et fin de liste
+
+    Supprimer un élément
+
+    Afficher les éléments de la liste
+
+💡 Bonus : Implémente une liste doublement chaînée.
+📌 TP 2 : Pile et File avec des Tableaux
+
+👉 Exercice : Implémente une pile (Stack) et une file (Queue) en Python :
+
+    push(), pop() pour la pile
+
+    enqueue(), dequeue() pour la file
+
+    Afficher la structure après chaque opération
+
+💡 Bonus : Implémente une file circulaire.
+📌 TP 3 : Implémentation d’un Graphe
+
+👉 Exercice :
+
+    Implémente un graphe orienté sous forme de liste d’adjacence
+
+    Ajoute une fonction pour parcourir le graphe en DFS et BFS
+
+💡 Bonus : Implémente l’algorithme de Dijkstra pour le plus court chemin.
+📌 TP 4 : Arbre Binaire de Recherche (BST)
+
+👉 Exercice :
+
+    Implémente une classe BST avec insertion et recherche
+
+    Implémente un parcours en profondeur (préfixe, infixe, postfixe)
+
+💡 Bonus : Implémente un AVL (arbre équilibré).
+
+📌 TD 5 : Implémentation d’un Dictionnaire (HashMap)
+Exercice
+
+Implémente une classe MyHashMap qui utilise un tableau de listes chaînées pour gérer les collisions.
+✅ Fonctionnalités attendues :
+
+    put(key, value): Ajouter une paire clé-valeur
+
+    get(key): Récupérer une valeur à partir d’une clé
+
+    remove(key): Supprimer une clé
+
+💡 Bonus : Implémente une fonction qui réorganise la table lorsque le nombre d’éléments dépasse une certaine limite.
+
+📌 TD 6 : Algorithmes de Tri (Bubble Sort, Merge Sort, Quick Sort)
+Exercice
+
+Implémente et compare les performances des algorithmes de tri suivants :
+
+    Bubble Sort (méthode simple)
+
+    Merge Sort (diviser pour régner)
+
+    Quick Sort (tri rapide)
+
+💡 Bonus : Ajoute une visualisation graphique du tri en utilisant matplotlib.animation.
+📌 TD 7 : Problème du Voyageur de Commerce (TSP)
+Exercice
+
+Implémente l’algorithme du plus court chemin pour résoudre le problème du voyageur de commerce (TSP) en utilisant :
+
+    Recherche exhaustive (brute force)
+
+    Algorithme glouton
+
+    Approche avec recuit simulé (simulated annealing)
+
+💡 Bonus : Ajoute une visualisation interactive du chemin optimal.
+
+
+2️⃣ Requêtes SQL avancées sur une base de données (jointures, indexation, normalisation)
+
+✅ Compétences visées :
+
+    Manipuler des bases de données avec SQL
+
+    Optimiser les requêtes avec indexation et jointures
+
+📌 TP 1 : Création d’une base de données pour un site e-commerce
+
+👉 Exercice :
+
+    Crée une base de données Ecommerce avec les tables Produits, Clients, Commandes
+
+    Insère des données de test
+
+💡 Bonus : Applique la 1NF, 2NF et 3NF sur la base.
+📌 TP 2 : Jointures et Requêtes Complexes
+
+👉 Exercice :
+
+    Affiche tous les produits commandés par un client spécifique (JOIN)
+
+    Trouve les clients qui ont commandé plus de 3 fois
+
+    Affiche les meilleures ventes avec GROUP BY et HAVING
+
+💡 Bonus : Implémente une vue pour les meilleures ventes.
+📌 TP 3 : Indexation et Optimisation
+
+👉 Exercice :
+
+    Crée un index sur la colonne nom_produit
+
+    Compare la vitesse d’exécution avec et sans index
+
+💡 Bonus : Utilise EXPLAIN ANALYZE pour optimiser une requête.
+
+📌 TD 4 : Base de Données d’un Hôpital
+Exercice
+
+Crée une base de données HopitalDB avec les tables suivantes :
+
+    Patients(id, nom, âge, maladie, médecin_id)
+
+    Médecins(id, nom, spécialité)
+
+    Consultations(id, patient_id, médecin_id, date_consultation, traitement)
+
+Requêtes à réaliser :
+
+    Lister tous les patients suivis par un médecin donné
+
+    Afficher le nombre de consultations par médecin
+
+    Identifier les maladies les plus fréquentes
+
+💡 Bonus : Ajoute des triggers SQL pour gérer l’historique des consultations.
+📌 TD 5 : Transactions et Indexation
+Exercice
+
+    Crée une table Transactions(id, client_id, montant, date, statut).
+
+    Ajoute un index sur client_id.
+
+    Compare le temps d’exécution d’une requête avec et sans index.
+
+    Implémente une transaction pour simuler un virement bancaire avec COMMIT et ROLLBACK.
+
+💡 Bonus : Ajoute une contrainte de vérification (CHECK) pour empêcher des montants négatifs.
+
+3️⃣ Pipeline de nettoyage de données avec Pandas et gestion des valeurs manquantes
+
+✅ Compétences visées :
+
+    Nettoyer les datasets et gérer les données manquantes
+
+    Créer un pipeline automatisé
+
+📌 TP 1 : Analyse et Nettoyage d’un Dataset (Titanic)
+
+👉 Exercice :
+
+    Charge le dataset Titanic (df = pd.read_csv('titanic.csv'))
+
+    Identifie les colonnes contenant des valeurs manquantes
+
+    Remplace les valeurs manquantes intelligemment (fillna(), dropna())
+
+💡 Bonus : Implémente une méthode avancée d’imputation (KNN, régression).
+📌 TP 2 : Création d’un Pipeline de Prétraitement
+
+👉 Exercice :
+
+    Écrire une fonction Python qui prend un dataset brut et applique un nettoyage automatique :
+
+        Supprime les données dupliquées
+
+        Normalise les variables numériques
+
+        Convertit les variables catégorielles en one-hot encoding
+
+💡 Bonus : Transformer ce pipeline en API Flask.
+
+📌 TD 3 : Nettoyage d’un Dataset de Locations AirBnB
+Exercice
+
+    Charge le fichier airbnb.csv avec pandas
+
+    Supprime les valeurs dupliquées
+
+    Gère les valeurs manquantes (moyenne, médiane, interpolation)
+
+    Normalise les prix (min-max scaling)
+
+💡 Bonus : Applique une analyse de valeurs aberrantes avec un boxplot.
+📌 TD 4 : Fusion et Transformation de Données
+Exercice
+
+    Charge deux fichiers CSV (ventes.csv et produits.csv).
+
+    Fais une jointure entre les deux datasets.
+
+    Crée une nouvelle colonne avec le chiffre d’affaires total par produit.
+
+    Filtre les produits les plus rentables.
+
+💡 Bonus : Sauvegarde le résultat sous format JSON et SQL.
+
+4️⃣ Exploration de données avec Matplotlib et Seaborn
+
+✅ Compétences visées :
+
+    Créer des visualisations impactantes
+
+    Explorer les tendances et relations entre variables
+
+📌 TP 1 : Visualisation de la répartition des revenus des clients
+
+👉 Exercice :
+
+    Charger un dataset avec pandas
+
+    Tracer un histogramme des revenus
+
+    Ajouter une courbe de densité
+
+💡 Bonus : Ajouter une transparence et un style personnalisé.
+📌 TP 2 : Corrélations et Matrice de Heatmap
+
+👉 Exercice :
+
+    Tracer une matrice de corrélation avec seaborn.heatmap()
+
+    Identifier les relations fortes entre variables
+
+💡 Bonus : Ajouter une barre de couleur dynamique.
+📌 TP 3 : Graphique de Répartition des Clients par Âge et Dépense
+
+👉 Exercice :
+
+    Tracer un scatter plot des dépenses en fonction de l’âge
+
+    Utiliser la couleur et la taille des points pour afficher une troisième variable
+
+💡 Bonus : Ajouter une animation matplotlib.
+
+📌 TD 4 : Analyse des Ventes d’un Supermarché
+Exercice
+
+    Charge un fichier supermarche.csv contenant les ventes par jour.
+
+    Trace une courbe d’évolution des ventes.
+
+    Ajoute des moyennes mobiles pour voir la tendance.
+
+💡 Bonus : Ajoute une zone d’incertitude avec fill_between().
+📌 TD 5 : Cartographie des Clients
+Exercice
+
+    Charge un fichier contenant des coordonnées GPS des clients.
+
+    Utilise folium pour afficher les clients sur une carte.
+
+    Regroupe les clients par régions avec seaborn.barplot().
+
+💡 Bonus : Ajoute un clustering des clients avec KMeans.

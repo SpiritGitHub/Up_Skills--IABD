@@ -13,7 +13,7 @@ Bienvenue dans mon parcours d'apprentissage structuré en IA et Big Data. Ce fic
 
 | Compétence | Temps Estimé | Progression | Depot |
 |------------|-------------|-------------|-------|
-| **Structures de données (Listes, Graphes, Arbres, Piles, Files)** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% | |
+| **Structures de données (Listes, Graphes, Arbres, Piles, Files)** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% | https://github.com/SpiritGitHub/Up_Skill_Preparatoire/tree/main/structures_de_donn%C3%A9es|
 | **Requêtes SQL avancées (jointures, indexation, normalisation)** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% | |
 | **Pipeline de nettoyage de données avec Pandas** | 2-3 semaines | ![Progress](https://progress-bar.dev/40/) 40% | |
 | **Exploration de données avec Matplotlib et Seaborn** | 2-4 semaines | ![Progress](https://progress-bar.dev/30/) 30% | |
